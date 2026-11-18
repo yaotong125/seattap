@@ -1,0 +1,29 @@
+[
+  {
+    "email": "hafiz.rahman@utm.my",
+    "password": "SeatTap-Officer-2026",
+    "name": "Hafiz Rahman",
+    "idNumber": "STF-0217",
+    "role": "examOfficer",
+    "faculty": "Faculty of Computing",
+    "phone": "07-553 3333"
+  },
+  {
+    "email": "farah.hanim@utm.my",
+    "password": "SeatTap-Invig-2026",
+    "name": "Dr. Farah Hanim",
+    "idNumber": "STF-1042",
+    "role": "invigilator",
+    "faculty": "Faculty of Computing",
+    "phone": "012-345 6789"
+  },
+  {
+    "email": "ahmad.danial@graduate.utm.my",
+    "password": "SeatTap-Student-2026",
+    "name": "Ahmad Danial",
+    "idNumber": "A24CS0123",
+    "role": "student",
+    "faculty": "Faculty of Computing",
+    "phone": "011-2345 6789"
+  }
+]

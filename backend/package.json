@@ -1,0 +1,20 @@
+{
+  "name": "seattap-backend",
+  "private": true,
+  "description": "SeatTap Firestore rules tests and roster seeding (Spark plan, no Cloud Functions)",
+  "scripts": {
+    "test": "mocha --timeout 20000 \"test/**/*.test.js\"",
+    "test:emulators": "firebase emulators:exec --project demo-seattap --only auth,firestore \"npm test\"",
+    "serve": "firebase emulators:start --project demo-seattap --only auth,firestore --import=./emulator-data --export-on-exit",
+    "seed:emulator": "node seed/seed-directory.js seed/directory.sample.json --emulator",
+    "deploy:rules": "firebase deploy --only firestore",
+    "seed:test-accounts": "node seed/create-test-accounts.js seed/test-accounts.json --emulator"
+  },
+  "dependencies": {
+    "firebase-admin": "^14.5.1"
+  },
+  "devDependencies": {
+    "firebase": "^13.4.0",
+    "mocha": "^12.0.3"
+  }
+}

@@ -1,0 +1,5 @@
+[
+  { "email": "hafiz.rahman@utm.my", "idNumber": "STF-0217", "name": "Hafiz Rahman", "role": "examOfficer", "faculty": "Faculty of Computing" },
+  { "email": "farah.hanim@utm.my", "idNumber": "STF-1042", "name": "Dr. Farah Hanim", "role": "invigilator", "faculty": "Faculty of Computing" },
+  { "email": "ahmad.danial@graduate.utm.my", "idNumber": "A24CS0123", "name": "Ahmad Danial", "role": "student", "faculty": "Faculty of Computing" }
+]

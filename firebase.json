@@ -1,0 +1,39 @@
+{
+  "firestore": {
+    "database": "(default)",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "seattap-imap-app",
+          "appId": "1:256261290635:android:3b52290373445fc9d6728e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "seattap-imap-app",
+          "configurations": {
+            "android": "1:256261290635:android:3b52290373445fc9d6728e",
+            "ios": "1:256261290635:ios:9776d72da85b5b4ed6728e"
+          }
+        }
+      }
+    }
+  }
+}
