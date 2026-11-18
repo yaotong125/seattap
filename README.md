@@ -1,6 +1,6 @@
-# my_first_app
+# SeatTap
 
-A new Flutter project.
+Evolutionary UTM Exam Management Prototype
 
 ## Getting Started
 
